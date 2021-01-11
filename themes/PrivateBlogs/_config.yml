@@ -2,16 +2,13 @@
 
 menu:
   主页: /
-  搜索: /
   相册: /photos
-  友链: /
-  关于: /
 
 # SubNav
 subnav:
   github: "https://github.com/PublicProject-UE4"
   weibo: ""
-  rss: /atom.xml
+  #rss: "#"
   #psn: "#"
   #zhihu: "#"
   #douban: "#"
@@ -105,7 +102,7 @@ slider:
 #smart_menu:
 #  friends: false
 smart_menu:
-  innerArchive: '所有文章'
+  innerArchive: '归档'
   friends: '友链'
   aboutme: '关于'
 
