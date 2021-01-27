@@ -11,8 +11,8 @@ import * as fetch from 'fetch-ie8'
 window.Promise = window.Promise || promise.Promise
 window.fetch = window.fetch || fetch
 
-let localTagKey = 'yilia-tag'
-let localSearchKey = 'yilia-search'
+let localTagKey = 'PrivateBlog-tag'
+let localSearchKey = 'PrivateBlog-search'
 const isMobile = (Browser.versions.mobile && window.screen.width < 800)
 
 function fixzero(str) {
@@ -132,7 +132,7 @@ function init() {
 		handleSearch(val)
     })
 
-	window.fetch(window.yiliaConfig.root + 'content.json?t=' + (+ new Date()), {
+	window.fetch(window.PrivateBlogConfig.root + 'content.json?t=' + (+ new Date()), {
 		method: 'get',
 	}).then((res) => {
 		return res.json()
@@ -166,7 +166,7 @@ function init() {
 	}
 	let isTagOn = 'false'
 	if (localTag === null) {
-		isTagOn = (window.yiliaConfig && window.yiliaConfig.showTags) ? 'true' : 'false'
+		isTagOn = (window.PrivateBlogConfig && window.PrivateBlogConfig.showTags) ? 'true' : 'false'
 	} else {
 		isTagOn = (window.localStorage && window.localStorage.getItem(localTagKey)) || 'false'
 	}

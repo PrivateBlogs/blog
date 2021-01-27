@@ -9,7 +9,7 @@ function init() {
 	}
 
 	// 新窗口打开
-	if (yiliaConfig && yiliaConfig.open_in_new) {
+	if (PrivateBlogConfig && PrivateBlogConfig.open_in_new) {
 		let $a = document.querySelectorAll(('.article-entry a:not(.article-more-a)'))
 		$a.forEach(($em) => {
 			let target = $em.getAttribute('target');
@@ -19,7 +19,7 @@ function init() {
 		})
 	}
 	// 目录序号
-	if (yiliaConfig && yiliaConfig.open_in_new) {
+	if (PrivateBlogConfig && PrivateBlogConfig.open_in_new) {
 		let $a = document.querySelectorAll(('.toc-number'))
 		$a.forEach(($em) => {
 			$em.style.display = 'none';

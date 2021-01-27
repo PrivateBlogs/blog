@@ -1,5 +1,5 @@
 {
-  "name": "yilia",
+  "name": "PrivateBlog",
   "version": "4.0.0",
   "description": "a theme for hexo",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/litten/hexo-theme-yilia.git"
+    "url": "git+https://github.com/litten/hexo-theme-PrivateBlog.git"
   },
   "keywords": [
     "hexo",
@@ -19,9 +19,9 @@
   "author": "litten",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/litten/hexo-theme-yilia/issues"
+    "url": "https://github.com/litten/hexo-theme-PrivateBlog/issues"
   },
-  "homepage": "https://github.com/litten/hexo-theme-yilia#readme",
+  "homepage": "https://github.com/litten/hexo-theme-PrivateBlog#readme",
   "devDependencies": {
     "autoprefixer": "^6.5.1",
     "clean-webpack-plugin": "^0.1.15",

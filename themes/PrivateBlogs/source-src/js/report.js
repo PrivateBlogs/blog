@@ -28,11 +28,11 @@ if (window.BJ_REPORT) {
 	var host = window.location.host
 	var isNotFrame = (top === window)
 	var isNotLocal = !((/localhost/i.test(host) || /127.0.0.1/i.test(host) || /0.0.0.0/i.test(host)))
-	isNotFrame && isNotLocal && BJ_REPORT.report('yilia-' + window.location.host)
+	isNotFrame && isNotLocal && BJ_REPORT.report('PrivateBlog-' + window.location.host)
 
 	// 来源上报
 	var from = getQueryString('f');
-	var fromKey = 'yilia-from';
+	var fromKey = 'PrivateBlog-from';
 	if (from) {
 		isNotFrame && BJ_REPORT.report('from-' + from);
 		// 种cookie
