@@ -5,3 +5,12 @@ db.json
 node_modules/
 public/
 .deploy*/
+.vscode/
+yarn.lock
+.idea
+*.ipr
+*.iws
+*.iml
+.DS_Store
+db.json
+public/
