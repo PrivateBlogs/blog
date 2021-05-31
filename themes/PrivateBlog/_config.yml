@@ -73,17 +73,17 @@ head:
 navbar:
     # Naviagtion menu items
     menu:
-        Home: /
-        Archives: /archives
-        Categories: /categories
-        Tags: /tags
-        About: /about
-        Album: /album
-        Friend: /friend
-        Message: /message
-        Self-talking: /self-talking
-        Music: /music
-        Media: /media
+        首页: /
+        归档: /archives
+        分类: /categories
+        标签: /tags
+        语录: /self-talking
+        相册: /album
+        音乐: /music
+        传媒: /media
+        友链: /friend
+        留言: /message
+        关于: /about
     # Links to be shown on the right of the navigation bar
     links:
         Join Gitter:
@@ -225,7 +225,7 @@ widgets:
         # Author name
         author: 乞丐小孩儿
         # Author title
-        author_title: 大肚能容，能容天下难容之事<br />笑口常开，笑世间可笑之人
+        author_title: 大肚能容,能容天下难容之事.笑口常开,笑世间可笑之人.
         # Author's current location
         location: 中国
         # URL or path to the avatar image
