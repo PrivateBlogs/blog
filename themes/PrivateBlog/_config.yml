@@ -16,7 +16,7 @@ head:
         title: 乞丐小孩儿
         # Page type (og:type) (optional)
         # You should leave this blank for most of the time
-        type: blog
+        type: Blog
         # Page URL (og:url) (optional)
         # You should leave this blank for most of the time
         url: https://PrivateBlogs.github.io/
@@ -25,10 +25,10 @@ head:
         image: https://cdn.jsdelivr.net/gh/PrivateBlogs/CDN@latest/Blog/Avatar.jpg
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
-        site_name: 乞丐小孩儿
+        site_name: 
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: removeif
+        author: 乞丐小孩儿
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
         description: 
@@ -71,7 +71,7 @@ head:
     rss: 
 # Page top navigation bar configurations
 navbar:
-    # Naviagtion menu items
+    # 菜单
     menu:
         首页: /
         归档: /archives
@@ -84,7 +84,7 @@ navbar:
         友链: /friend
         留言: /message
         关于: /about
-    # Links to be shown on the right of the navigation bar
+    # Links to be shown on the right of the navigation bar // 链接显示在导航栏的右侧  
     links:
         Join Gitter:
             icon: fab fa-gitter
@@ -92,9 +92,9 @@ navbar:
         Download on GitHub:
             icon: fab fa-github
             url: 'https://github.com/removeif/hexo-theme-amazing'
-# Page footer configurations
+# Page footer configurations // 页脚配置
 footer:
-    # Links to be shown on the right of the footer section
+    # Links to be shown on the right of the footer section // 链接将显示在页脚部分的右边  
     links:
         Creative Commons:
             icon: fab fa-creative-commons
@@ -105,9 +105,9 @@ footer:
         Download on GitHub:
             icon: fab fa-github
             url: 'https://github.com/removeif/hexo-theme-amazing'
-# Article related configurations
+# Article related configurations // 文章相关配置
 article:
-    # Code highlight settings
+    # Code highlight settings // 代码高亮显示设置
     highlight:
         # Code highlight themes
         # https://github.com/highlightjs/highlight.js/tree/master/src/styles
@@ -116,9 +116,9 @@ article:
         clipboard: true
         # Default folding status of the code blocks. Can be "", "folded", "unfolded"
         fold: unfolded
-    # Whether to show estimated article reading time
+    # Whether to show estimated article reading time // 是否显示预估文章阅读时间  
     readtime: true
-    # Article licensing block
+    # Article licensing block // 许可条快儿
     licenses:
         Creative Commons:
             icon: fab fa-creative-commons
@@ -143,17 +143,17 @@ search:
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
     type: gitalk
-    language: zh-CN #zh-CN #Localization language key, en, zh-CN and zh-TW are currently available.
-    owner: removeif         # (required) GitHub user name
-    repo: blog_comment          # (required) GitHub repository name
-    client_id: 46a9f3481b46ea0129d8     # (required) OAuth application client id
-    client_secret: 79c7c9cb847e141757d7864453bcbf89f0655b24 # (required) OAuth application client secret
-    admin: ['removeif']
+    language: en #zh-CN #Localization language key, en, zh-CN and zh-TW are currently available.
+    owner: PrivateBlogs         # (required) GitHub user name
+    repo: BlogComment          # (required) GitHub repository name
+    client_id: 3eec1bc4267a4f014f67     # (required) OAuth application client id
+    client_secret: 836da05cc0521ffe60c2a8dce7b8ca747d0f3510 # (required) OAuth application client secret
+    admin: ['PrivateBlogs']
     create_issue_manually: true
     distraction_free_mode: false
     has_hot_recommend: true # 是否有热门推荐
     has_latest_comment: true #是否有最新评论
-# Donate plugin configurations
+# Donate plugin configurations // 捐赠插件配置
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
   # Alipay donate button configurations
@@ -207,7 +207,7 @@ sidebar:
     right:
         # Whether the sidebar sticks to the top when page scrolls
         sticky: false
-# Sidebar widget configurations
+# Sidebar widget configurations // 侧栏小部件的配置
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
 widgets:
     # Table of contents widget configurations
@@ -365,8 +365,8 @@ providers:
     # my_cdn_pre: https://cdn.jsdelivr.net/gh/removeif/removeif-demo@v1.0.8/ #https://cdn.jsdelivr.net/gh/removeif/removeif.github.io@v2.2.1
 
 
-footer_copyright_dsec: © 版权说明：本网站内容收集于互联网;方便于网友与自己学习交流，如有侵权，请<a href="/message" target="_blank">留言</a>，立即处理]<br /> #footer 版权说明 可自由配置
-website_start_time: 2021/1/28 00:00:00 #网站运行开始时间,不填不显示
+footer_copyright_dsec: © 版权说明：本网站内容收集于互联网;方便于网友与自己学习交流，如有侵权，请<a href="/message" target="_blank">留言</a>，立即处理<br /> #footer 版权说明 可自由配置
+website_start_time: 2021/1/1 00:00:00 #网站运行开始时间,不填不显示
 footer_registered_no: '' #备案号
 side_music_netease_id: '' #侧边栏网易云歌单id
 busuanzi_only_count: false #当上面plugins中busuanzi: true时，此配置busuanzi_only_count为true时，网站不显示不蒜子统计数据，但是会每次统计。false时显示统计数据。
