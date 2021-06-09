@@ -144,11 +144,11 @@ search:
 comment:
     type: gitalk
     language: zh-CN #zh-CN #Localization language key, en, zh-CN and zh-TW are currently available.
-    owner: PrivateBlogs         # (required) GitHub user name
+    owner: LZYLOVESYX         # (required) GitHub user name
     repo: BlogComment          # (required) GitHub repository name
     client_id: 3eec1bc4267a4f014f67     # (required) OAuth application client id
     client_secret: 836da05cc0521ffe60c2a8dce7b8ca747d0f3510 # (required) OAuth application client secret
-    admin: ['PrivateBlogs']
+    admin: ['乞丐小孩儿']
     create_issue_manually: true
     distraction_free_mode: false
     has_hot_recommend: true # 是否有热门推荐
@@ -161,35 +161,13 @@ donates:
         # Donation entry name
         type: alipay
         # Qrcode image URL
-        qrcode: 'https://raw.githubusercontent.com/removeif/blog_image/master/img/2019/20190802135456.png'
+        qrcode: ''
     -
         # Donation entry name
         type: wechat
         # Qrcode image URL
-        qrcode: 'https://raw.githubusercontent.com/removeif/blog_image/master/img/2019/20190802135550.png'
-    # "Buy me a coffee" donate button configurations
-#    -
-#        type: buymeacoffee
-#        # URL to the "Buy me a coffee" page
-#        url: ''
-#    # Patreon donate button configurations
-#    -
-#        type: patreon
-#        # URL to the Patreon page
-#        url: ''
-#    # Paypal donate button configurations
-#    -
-#        type: paypal
-#        # Paypal business ID or email address
-#        business: ''
-#        # Currency code
-#        currency_code: USD
-#    # Wechat donate button configurations
-#    -
-#        type: wechat
-#        # Wechat qrcode image URL
-#        qrcode: ''
-# Share plugin configurations
+        qrcode: ''
+# Share plugin configurations // 分享插件配置
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 share:
     # 禁用分享 sharejs
@@ -253,7 +231,7 @@ widgets:
         # Where should the widget be placed, left sidebar or right sidebar
         position: left
         type: links
-        # Names and URLs of the sites
+        # Names and URLs of the sites // 网站的名称和url
         links:
             Hexo: 'https://hexo.io'
     # Latest comment widget configurations
@@ -306,7 +284,7 @@ article_head_has_ad: true
 comment_head_has_ad: true
 # other ad
 index_zero_position_ad: true
-index_ad_positions: false #首页adsense放置广告的位置，尽量少配置些，多了有可能不显示。一位的时候，加个逗号，如1,或者1,5,9
+index_ad_positions: false #首页adsense放置广告的位置
 # Plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
@@ -367,8 +345,8 @@ providers:
 
 footer_copyright_dsec: © 版权说明：本网站内容收集于互联网;方便于网友与自己学习交流，如有侵权，请<a href="/message" target="_blank">留言</a>，立即处理<br /> #footer 版权说明 可自由配置
 website_start_time: 2021/1/1 00:00:00 #网站运行开始时间,不填不显示
-footer_registered_no: '' #备案号
-side_music_netease_id: '' #侧边栏网易云歌单id
-busuanzi_only_count: false #当上面plugins中busuanzi: true时，此配置busuanzi_only_count为true时，网站不显示不蒜子统计数据，但是会每次统计。false时显示统计数据。
-has_live_2D_switch: false #live2D开关 true-开 false-关
-use_pjax: true #是否pjax
+footer_registered_no: '' # 备案号
+side_music_netease_id: '' # 侧边栏网易云歌单id
+busuanzi_only_count: false # 当上面plugins中busuanzi: true时，此配置busuanzi_only_count为true时，网站不显示不蒜子统计数据，但是会每次统计。false时显示统计数据。
+has_live_2D_switch: true # live2D开关 true-开 false-关
+use_pjax: true # 是否pjax

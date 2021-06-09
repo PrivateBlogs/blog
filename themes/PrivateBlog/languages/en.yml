@@ -71,8 +71,8 @@ plugin:
       policy: Cookie Policy
     visit: '%s visits'
     visitor: 'Visited by %s users'
-    footer_visitor: '❤️Thx <strong>%s</strong> users <strong>%s</strong> visited！❤️'
-    footer_website_time: '❤️Site from <strong>|</strong> has existed <strong>|</strong> d <strong>|</strong> h <strong>|</strong> m <strong>|</strong> s！❤️'
+    footer_visitor: 'Thx <strong>%s</strong> users <strong>%s</strong> visited！'
+    footer_website_time: 'Site from <strong>|</strong> has existed <strong>|</strong> d <strong>|</strong> h <strong>|</strong> m <strong>|</strong> s！'
 search:
     search: 'Search'
     hint: 'Type something...'
