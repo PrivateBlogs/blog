@@ -144,10 +144,10 @@ search:
 comment:
     type: gitalk
     language: zh-CN #zh-CN #Localization language key, en, zh-CN and zh-TW are currently available.
-    owner: LZYLOVESYX         # (required) GitHub user name
-    repo: BlogComment          # (required) GitHub repository name
+    owner: PrivateBlogs         # (required) GitHub user name
+    repo: BlogComment        # (required) GitHub repository name
     client_id: 3eec1bc4267a4f014f67     # (required) OAuth application client id
-    client_secret: 836da05cc0521ffe60c2a8dce7b8ca747d0f3510 # (required) OAuth application client secret
+    client_secret: 9caad4e3b6b8ac229d37f1287e14e893274bce7c # (required) OAuth application client secret
     admin: ['乞丐小孩儿']
     create_issue_manually: true
     distraction_free_mode: false
@@ -348,5 +348,5 @@ website_start_time: 2021/1/1 00:00:00 #网站运行开始时间,不填不显示
 footer_registered_no: '' # 备案号
 side_music_netease_id: '' # 侧边栏网易云歌单id
 busuanzi_only_count: false # 当上面plugins中busuanzi: true时，此配置busuanzi_only_count为true时，网站不显示不蒜子统计数据，但是会每次统计。false时显示统计数据。
-has_live_2D_switch: true # live2D开关 true-开 false-关
+has_live_2D_switch: false # live2D开关 true-开 false-关
 use_pjax: true # 是否pjax
