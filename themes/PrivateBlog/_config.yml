@@ -147,7 +147,7 @@ comment:
     owner: PrivateBlogs         # (required) GitHub user name
     repo: BlogComment        # (required) GitHub repository name
     client_id: 3eec1bc4267a4f014f67     # (required) OAuth application client id
-    client_secret: 9caad4e3b6b8ac229d37f1287e14e893274bce7c # (required) OAuth application client secret
+    client_secret: 5ae4c049978e58242cad5f70f6b96044a3a01751 # (required) OAuth application client secret
     admin: ['乞丐小孩儿']
     create_issue_manually: true
     distraction_free_mode: false
