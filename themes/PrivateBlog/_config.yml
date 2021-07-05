@@ -154,10 +154,10 @@ donates:
         # 捐赠条目名称
         type: alipay
         # 图像 URL
-        qrcode: ''
+        qrcode: '/img/alipay.png'
     -
         type: wechat
-        qrcode: ''
+        qrcode: '/img/wechat.png'
 
 # 分享插件配置
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
