@@ -1,9 +1,7 @@
-// author by removef
-// https://removeif.github.io/
 // 音乐处理
 var lastIndex;
 var musicJsons;
-$.getJSON("../json_data/music.json", function (data) {
+$.getJSON("../json_data/music.json", function(data) {
     musicJsons = data;
     for (var i = 0; i < musicJsons.length; i++) {
         musicJsons[i].loop = false;
@@ -12,7 +10,7 @@ $.getJSON("../json_data/music.json", function (data) {
         $li.css('list-style-type', 'none');
         $li.css('height', '40px');
         $li.css('color', '#888888');
-        $li.click(function (event) {
+        $li.click(function(event) {
             var id = Number(this.id);
             playMusic(musicJsons[id]);
             $('#musiclist #' + lastIndex).css('color', '#888888');
@@ -36,7 +34,7 @@ function playMusic(data, playendcallback) {
         music: data,
         target: '.music',
         autoplay: false
-    }, function () {
+    }, function() {
         var index;
         index = lastIndex + 1;
         if (index >= musicJsons.length) {
@@ -58,14 +56,14 @@ function playMusic(data, playendcallback) {
 
 // 视频处理
 var lastVideoIndex;
-$.getJSON("../json_data/video.json", function (data) {
+$.getJSON("../json_data/video.json", function(data) {
     $('#video-list').append("");
     for (var i = 0; i < data.length; i++) {
-        var $li = $("<blockquote>"+(i+1)+"." + data[i].desc + "</blockquote>");
+        var $li = $("<blockquote>" + (i + 1) + "." + data[i].desc + "</blockquote>");
         $li.attr('id', i);
-        $li.click(function (event) {
+        $li.click(function(event) {
             var id = Number(this.id);
-            playVideo(data[id],id);
+            playVideo(data[id], id);
             $('#video-list #' + lastVideoIndex).css('color', '#888888');
             lastVideoIndex = id;
         });
@@ -74,7 +72,7 @@ $.getJSON("../json_data/video.json", function (data) {
 
 });
 
-function playVideo(data,id) {
+function playVideo(data, id) {
     new DPlayer({
         container: document.getElementById('dplayer'),
         autoplay: true,

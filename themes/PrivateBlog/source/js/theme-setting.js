@@ -1,6 +1,3 @@
-// author by removef
-// https://removeif.github.io/
-
 function isNightFun() {
     var isNightTemp = localStorage.getExpire('night');
 
@@ -16,7 +13,7 @@ function isNightFun() {
     return isNightTemp;
 }
 
-var isNight=isNightFun();
+var isNight = isNightFun();
 var nightNav;
 var nightIcon;
 
@@ -56,10 +53,10 @@ function switchNight() {
     } else {
         isNight = 'false';
     }
-    
+
     applyNight(isNight);
     localStorage.setExpire('night', isNight, expireTime1H);
-    if(typeof loadUtterances == 'function'){
+    if (typeof loadUtterances == 'function') {
         loadUtterances();
     }
 }
