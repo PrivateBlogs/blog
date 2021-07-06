@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "/plugin/animejs.json",
-    "description": "Enable page startup animations",
+    "$id": "/Plugins/BackToTop.json",
+    "description": "显示回到顶部按钮",
     "type": "boolean",
     "default": true
 }

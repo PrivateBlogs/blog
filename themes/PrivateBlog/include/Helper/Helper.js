@@ -2,11 +2,10 @@ const crypto = require('crypto');
 /**
  * some global method
  */
-module.exports = function (hexo) {
-    // 获取路劲中最后一个字符串，针对于后面调整分类和链接格式时，id不受影响
-    hexo.extend.helper.register('_get_path_end_str', function (path, unique, title) {
+module.exports = function(hexo) {
+    // 获取路径中最后一个字符串，针对于后面调整分类和链接格式时，id不受影响
+    hexo.extend.helper.register('_get_path_end_str', function(path, unique, title) {
 
-        // 原格式 2020-02-06 02:29:04/"test1".html -> 20200206022904/test1.html
         if (unique != undefined && unique != '') {
             unique = unique.toLocaleLowerCase();
             // 标题中有空格的需要在自动生成的uniqueId中自动替换成"-"中横线
@@ -19,7 +18,7 @@ module.exports = function (hexo) {
                 return unique;
             }
         } else {
-            // 对于短连接模式，原来有issue评论的，使用title关联，如果有最新评论以及热门推荐的需要 更爱相应issue中的文章url
+            // 对于短连接模式，原来有issue评论的，使用title关联，如果有最新评论以及热门推荐的需要 更新相应issue中的文章url
             // 对于page 有可能是 有title的情况需要排除
             if (title != undefined && title != "" && path.indexOf("/index.html") < 0) {
                 title += ".html";
@@ -38,14 +37,12 @@ module.exports = function (hexo) {
         }
     });
 
-    hexo.extend.helper.register('_get_md5', function (str) {
+    hexo.extend.helper.register('_get_md5', function(str) {
         return crypto.createHash('md5').update(str).digest('hex');
     });
 
-    // filename resource abs url
-    hexo.extend.helper.register('my_cdn', function (filename) {
-
-        // https://cdn.jsdelivr.net/gh/removeif/removeif.github.io@v1.0.6/json_data/record.json
+    // filename abs url
+    hexo.extend.helper.register('my_cdn', function(filename) {
         // full url,return
         if (filename.startsWith("https://cdn.jsdelivr.net")) {
             return filename;

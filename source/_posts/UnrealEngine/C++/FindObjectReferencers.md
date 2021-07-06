@@ -16,6 +16,49 @@ categories: [UnrealEngine]
 
 Editor
 
+	void UTextureFilterAsset::QueriedReferencerAssetData(const FString& InQueriedPath)
+	{
+	    UObject* QueriedObject = nullptr;
+	
+	    QueriedObject = LoadObject<UTexture>(this. *InQueriedPath);
+	
+	    if (!QueriedObject)
+	    return;
+	
+	    TArray<FName> DiskReferences;
+	
+	    // Load the asset registry module
+	    FAssetRegistryModule& AssetRegistryModule = FModuleManager::LoadModuleChecked<FAssetRegistryModule>(TEXT("AssetRegistry"));
+	
+	    // Load referencer assets
+	    AssetRegistryModule.Get().GetReferencers(QueriedObject->GetOutermost()->GetFName(), DiskReferences);
+	
+	    // 过滤查询的 Object
+	    for (FName& Reference : DiskReferences)
+	    {
+	        if (QueriedObject->GetOutermost()->GetFName() == Reference)
+	            DiskReferences.Remove(Reference);
+	    }
+	
+	    // Load all assets
+	    TArray<FAssetData> QueriedAssetItems;
+	    AssetRegistryModule.Get().GetAllAssets(QueriedAssetItems);
+	
+	    AssetItems.Empty();
+	
+	    for (int32 AssetIndex = QueriedAssetItems.Num() - 1; AssetIndex >= 0; AssetIndex--)
+	    {
+	        if (QuariedAssetItems[AssetIandex]. IsRedirector() && !QueriedssetItems[AssetIndaz].IsUAsset()
+	        {
+	            continses;
+	        }
+	
+	        if DiskReferences.Contains(QuerledAssetItems[AssetIndex].PackageName))
+	        {
+	            AssetItems.Add(QueriedAssetItems[AssetIandex]);
+	        }
+	    }
+	}
 
 
 DebugGame

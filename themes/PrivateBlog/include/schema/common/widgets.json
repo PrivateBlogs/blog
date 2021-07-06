@@ -1,19 +1,19 @@
+/* 共同 -> 窗口小部件 */
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "/common/widgets.json",
-    "description": "Sidebar widget configurations\nhttp://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/",
+    "$id": "/Common/Widgets.json",
+    "description": "侧栏小部件的配置.\nhttp://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/",
     "type": "array",
     "items": {
         "type": "object",
         "properties": {
             "position": {
                 "type": "string",
-                "description": "Where should the widget be placed, left sidebar or right sidebar",
+                "description": "小部件应该放在哪里，左边栏还是右边栏",
                 "default": "left"
             }
         },
-        "oneOf": [
-            {
+        "oneOf": [{
                 "$ref": "/widget/profile.json"
             },
             {

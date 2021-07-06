@@ -140,6 +140,7 @@ comment:
     repo: BlogComment                                           # GitHub存储库名称 (必需)
     client_id: 3eec1bc4267a4f014f67                             # OAuth应用程序客户端ID (必需)
     client_secret: 5ae4c049978e58242cad5f70f6b96044a3a01751     # OAuth应用程序客户机秘密(必需)
+    proxy: 'https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token'
     admin: ['LZYLOVESYX', 'PrivateBlogs']
     create_issue_manually: false
     distraction_free_mode: false

@@ -1,7 +1,8 @@
+/* 共同 -> 插件 */
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "/common/plugins.json",
-    "description": "Plugin configurations\nhttps://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/",
+    "$id": "/Common/Plugins.json",
+    "description": "插件配置.\nhttps://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/",
     "type": "object",
     "properties": {
         "animejs": {

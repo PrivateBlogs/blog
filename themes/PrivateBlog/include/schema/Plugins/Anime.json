@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "/plugin/back_to_top.json",
-    "description": "Show the \"back to top\" button",
+    "$id": "/Plugins/Anime.json",
+    "description": "启用页面启动动画",
     "type": "boolean",
     "default": true
 }
