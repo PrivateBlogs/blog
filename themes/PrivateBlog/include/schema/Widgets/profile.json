@@ -1,7 +1,8 @@
+/* 窗口小部件 -> 简况 */
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "/widget/profile.json",
-    "description": "Profile widget configurations",
+    "$id": "/Widgets/Profile.json",
+    "description": "简况小控件配置",
     "type": "object",
     "properties": {
         "type": {
@@ -60,30 +61,28 @@
         "social_links": {
             "$ref": "/misc/poly_links.json",
             "description": "Links to be shown on the bottom of the profile widget",
-            "examples": [
-                {
-                    "Github": {
-                        "icon": "fab fa-github",
-                        "url": "https://github.com/orgs/PublicProject-UE4"
-                    },
-                    "Facebook": {
-                        "icon": "fab fa-facebook",
-                        "url": "https://facebook.com"
-                    },
-                    "Twitter": {
-                        "icon": "fab fa-twitter",
-                        "url": "https://twitter.com"
-                    },
-                    "Dribbble": {
-                        "icon": "fab fa-dribbble",
-                        "url": "https://dribbble.com"
-                    },
-                    "RSS": {
-                        "icon": "fas fa-rss",
-                        "url": "/"
-                    }
+            "examples": [{
+                "Github": {
+                    "icon": "fab fa-github",
+                    "url": "https://github.com/orgs/PublicProject-UE4"
+                },
+                "Facebook": {
+                    "icon": "fab fa-facebook",
+                    "url": "https://facebook.com"
+                },
+                "Twitter": {
+                    "icon": "fab fa-twitter",
+                    "url": "https://twitter.com"
+                },
+                "Dribbble": {
+                    "icon": "fab fa-dribbble",
+                    "url": "https://dribbble.com"
+                },
+                "RSS": {
+                    "icon": "fas fa-rss",
+                    "url": "/"
                 }
-            ]
+            }]
         }
     },
     "required": [
