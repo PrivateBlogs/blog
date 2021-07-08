@@ -1,4 +1,3 @@
-/* 共同 -> 导航条 */
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "/Common/Navbar.json",

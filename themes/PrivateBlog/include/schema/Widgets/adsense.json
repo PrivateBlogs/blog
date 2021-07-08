@@ -1,4 +1,3 @@
-/* 窗口小部件 -> 广告 */
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "/Widgets/Adsense.json",

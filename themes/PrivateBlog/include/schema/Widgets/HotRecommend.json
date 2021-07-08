@@ -1,4 +1,3 @@
-/* 窗口小部件 -> 热门推荐 */
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "/Widgets/HotRecommend.json",

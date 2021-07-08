@@ -1,20 +1,20 @@
 /* ---------------------------------
- *            Page Footer
+ *            页脚
  * --------------------------------- */
-footer.footer
-    .level-start
-        +mobile()
-            text-align: center
+.aplayer-narrow{
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
 
-    .level-end
-        .field
-            flex-wrap: wrap
-            align-items: center
+.aplayer-narrow:hover {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
 
-            +mobile()
-                justify-content: center
-                margin-top: 1rem
+.aplayer{
+    transition: all .5s ease-out;
+}
 
-.footer-logo
-    img
-        max-height: $logo-height
+.aplayer .aplayer-miniswitcher {
+    background: white !important;
+}
