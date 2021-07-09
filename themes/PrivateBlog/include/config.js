@@ -1,13 +1,13 @@
 /* eslint no-process-exit: "off" */
 const fs = require('fs');
 const path = require('path');
-const util = require('util');
+const util = require('Util');
 const crypto = require('crypto');
 const logger = require('hexo-log')();
 const yaml = require('hexo-component-inferno/lib/util/yaml');
 const { Migrator } = require('hexo-component-inferno/lib/core/migrate');
 const { SchemaLoader } = require('hexo-component-inferno/lib/core/schema');
-const { yellow } = require('./util/console');
+const { yellow } = require('./Util/Console');
 
 function loadThemeConfig(hexo, cfgPaths) {
     const configs = cfgPaths.map(cfgPath => fs.readFileSync(cfgPath))
