@@ -1,0 +1,56 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "/common/plugins.json",
+    "description": "插件配置.\nhttps://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/",
+    "type": "object",
+    "properties": {
+        "animejs": {
+            "$ref": "/plugins/animejs.json"
+        },
+        "back_to_top": {
+            "$ref": "/plugins/back_to_top.json"
+        },
+        "baidu_analytics": {
+            "$ref": "/plugins/baidu_analytics.json"
+        },
+        "bing_webmaster": {
+            "$ref": "/plugins/bing_webmaster.json"
+        },
+        "busuanzi": {
+            "$ref": "/plugins/busuanzi.json"
+        },
+        "cnzz": {
+            "$ref": "/plugins/cnzz.json"
+        },
+        "cookie_consent": {
+            "$ref": "/plugins/cookie_consent.json"
+        },
+        "gallery": {
+            "$ref": "/plugins/gallery.json"
+        },
+        "google_analytics": {
+            "$ref": "/plugins/google_analytics.json"
+        },
+        "hotjar": {
+            "$ref": "/plugins/hotjar.json"
+        },
+        "katex": {
+            "$ref": "/plugins/katex.json"
+        },
+        "mathjax": {
+            "$ref": "/plugins/mathjax.json"
+        },
+        "outdated_browser": {
+            "$ref": "/plugins/outdated_browser.json"
+        },
+        "progressbar": {
+            "$ref": "/plugins/progressbar.json"
+        },
+        "statcounter": {
+            "$ref": "/plugins/statcounter.json"
+        },
+        "twitter_conversion_tracking": {
+            "$ref": "/plugins/twitter_conversion_tracking.json"
+        }
+    }
+}
