@@ -12,44 +12,45 @@
                 "default": "left"
             }
         },
-        "oneOf": [{
+        "oneOf": [
+            {
                 "$ref": "/widgets/profile.json"
             },
             {
-                "$ref": "/widgets/toc.json"
+                "$ref": "/widget/toc.json"
             },
             {
-                "$ref": "/widgets/links.json"
+                "$ref": "/widget/links.json"
             },
             {
-                "$ref": "/widgets/categories.json"
+                "$ref": "/widget/categories.json"
             },
             {
-                "$ref": "/widgets/recent_posts.json"
+                "$ref": "/widget/recent_posts.json"
             },
             {
-                "$ref": "/widgets/archives.json"
+                "$ref": "/widget/archives.json"
             },
             {
-                "$ref": "/widgets/tags.json"
+                "$ref": "/widget/tags.json"
             },
             {
-                "$ref": "/widgets/subscribe_email.json"
+                "$ref": "/widget/subscribe_email.json"
             },
             {
-                "$ref": "/widgets/adsense.json"
+                "$ref": "/widget/adsense.json"
             },
             {
-                "$ref": "/widgets/ads_x.json"
+                "$ref": "/widgets/ads-x.json"
             },
             {
-                "$ref": "/widgets/hot_recommend.json"
+                "$ref": "/widgets/hot-recommend.json"
             },
             {
-                "$ref": "/widgets/latest_comment.json"
+                "$ref": "/widgets/latest-comment.json"
             },
             {
-                "$ref": "/widgets/recommend_post.json"
+                "$ref": "/widgets/recommend-post.json"
             }
         ],
         "required": [

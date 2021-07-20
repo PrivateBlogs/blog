@@ -12,5 +12,5 @@ module.exports = hexo => {
     require('hexo-component-inferno/lib/hexo/helper/cdn')(hexo);
     require('hexo-component-inferno/lib/hexo/helper/page')(hexo);
     require('hexo-component-inferno/lib/core/view').init(hexo);
-    require('./Helper/Helper')(hexo)
+    require('./helper/helper')(hexo)
 };

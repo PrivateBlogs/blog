@@ -5,52 +5,52 @@
     "type": "object",
     "properties": {
         "animejs": {
-            "$ref": "/plugins/animejs.json"
+            "$ref": "/plugins/anime.json"
         },
         "back_to_top": {
-            "$ref": "/plugins/back_to_top.json"
+            "$ref": "/plugins/back-to-top.json"
         },
         "baidu_analytics": {
-            "$ref": "/plugins/baidu_analytics.json"
+            "$ref": "/plugin/baidu_analytics.json"
         },
         "bing_webmaster": {
-            "$ref": "/plugins/bing_webmaster.json"
+            "$ref": "/plugin/bing_webmaster.json"
         },
         "busuanzi": {
-            "$ref": "/plugins/busuanzi.json"
+            "$ref": "/plugin/busuanzi.json"
         },
         "cnzz": {
-            "$ref": "/plugins/cnzz.json"
+            "$ref": "/plugin/cnzz.json"
         },
         "cookie_consent": {
-            "$ref": "/plugins/cookie_consent.json"
+            "$ref": "/plugin/cookie_consent.json"
         },
         "gallery": {
-            "$ref": "/plugins/gallery.json"
+            "$ref": "/plugin/gallery.json"
         },
         "google_analytics": {
-            "$ref": "/plugins/google_analytics.json"
+            "$ref": "/plugin/google_analytics.json"
         },
         "hotjar": {
-            "$ref": "/plugins/hotjar.json"
+            "$ref": "/plugin/hotjar.json"
         },
         "katex": {
-            "$ref": "/plugins/katex.json"
+            "$ref": "/plugin/katex.json"
         },
         "mathjax": {
-            "$ref": "/plugins/mathjax.json"
+            "$ref": "/plugin/mathjax.json"
         },
         "outdated_browser": {
-            "$ref": "/plugins/outdated_browser.json"
+            "$ref": "/plugin/outdated_browser.json"
         },
         "progressbar": {
-            "$ref": "/plugins/progressbar.json"
+            "$ref": "/plugin/progressbar.json"
         },
         "statcounter": {
-            "$ref": "/plugins/statcounter.json"
+            "$ref": "/plugin/statcounter.json"
         },
         "twitter_conversion_tracking": {
-            "$ref": "/plugins/twitter_conversion_tracking.json"
+            "$ref": "/plugin/twitter_conversion_tracking.json"
         }
     }
 }

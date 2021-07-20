@@ -36,40 +36,40 @@
             ]
         },
         "head": {
-            "$ref": "/common/Head.json"
+            "$ref": "/common/head.json"
         },
         "navbar": {
-            "$ref": "/common/Navbar.json"
+            "$ref": "/common/navbar.json"
         },
         "footer": {
-            "$ref": "/common/Footer.json"
+            "$ref": "/common/footer.json"
         },
         "article": {
-            "$ref": "/common/Article.json"
+            "$ref": "/common/article.json"
         },
         "search": {
-            "$ref": "/common/Search.json"
+            "$ref": "/common/search.json"
         },
         "comment": {
-            "$ref": "/common/Comment.json"
+            "$ref": "/common/comment.json"
         },
         "donates": {
-            "$ref": "/common/Donates.json"
+            "$ref": "/common/donates.json"
         },
         "share": {
-            "$ref": "/common/Share.json"
+            "$ref": "/common/share.json"
         },
         "sidebar": {
-            "$ref": "/common/Sidebar.json"
+            "$ref": "/common/sidebar.json"
         },
         "widgets": {
-            "$ref": "/common/Widgets.json"
+            "$ref": "/common/widgets.json"
         },
         "plugins": {
-            "$ref": "/common/Plugins.json"
+            "$ref": "/common/plugins.json"
         },
         "providers": {
-            "$ref": "/common/Providers.json"
+            "$ref": "/common/providers.json"
         }
     },
     "required": [
